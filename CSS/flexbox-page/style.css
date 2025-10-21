@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-y: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+.page-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.inner-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.header .page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 16px;
+}
+
+.header .right-links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.header .right-links a {
+  color: gray;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.section {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-section {
+  background-color: #1F2937;
+}
+.hero-section .page-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.hero-section .text {
+  width: 500px;
+}
+.hero-section .image{
+  width: 400px;
+  height: 150px;
+  border-style: solid;
+  background-color: gray;
+}
+.hero-title {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 24px;
+}
+.hero-description {
+  color: #b0b3b8;
+  font-size: 18px;
+}
+
+.cards-section {
+  flex: 1;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards-title {
+  font-weight: bold;
+  margin: 15px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  width: 200px;
+  gap: 20px;
+}
+.card-image {
+  width: 200px;
+  height: 150px;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  height: 150px;
+  margin: 20px 0;
+}
+.quote-section .page-container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-section .inner-container{
+  display: flex;
+  flex-direction: column;
+  color: #1F2937; 
+}
+.quote-section .quote-text{
+  font-size: 18px;
+  font-weight: 100;
+  padding: 6px;
+}
+.quote-section .quote-author{
+  color: #1F2937;
+  font-size: 26px;
+  font-weight: bold;
+  align-self: flex-end;
+  padding: 6px;
+}
+
+.cta-section {
+  height: 100px;
+  margin: 20px 0;
+}
+.cta-section .page-container{
+  background-color: #3882F6;
+  padding: 20px;
+  border-radius: 4px;
+}
+.cta-section .inner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.cta-title {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 16px;
+}
+.cta-description {
+  color: #b0b3b8;
+  font-size: 12px;
+}
+.cta-section button {
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.footer {
+  color: gray;
+  background-color: #1F2937;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;  
+  border: 0;
+  padding: 4px 12px;
+}
